@@ -12,5 +12,3 @@ Localtion for cluster configs
 ls /etc/kubernetes/manifests
 addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager.yaml  kube-scheduler.yaml
 ```
-
-https://kubernetes.io/docs/reference/kubectl/conventions/
