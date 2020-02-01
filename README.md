@@ -41,5 +41,6 @@ Commands and Arguments |
 Env Variables |
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 Multi-Container Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-multi-container-pods/
+Init Containers |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 
