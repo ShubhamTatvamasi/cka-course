@@ -68,11 +68,12 @@ CoreDNS in Kubernetes |
 CKA - Ingress Networking - 1 |
 CKA - Ingress Networking - 2 |
 Cluster Installation using kubeadm |
-Application Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-app-1-1-16/
+Application Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-app-1/
 Control Plane Failure |
 Worker Node Failure |
 Advanced Kubectl Commands |
-CKA Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-2-1-16/
+CKA Practice Exam - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-1/
+CKA Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-2/
 
 Reference: https://katacoda.com/mmumshad2/
 
