@@ -71,7 +71,7 @@ Application Failure |
 Control Plane Failure |
 Worker Node Failure |
 Advanced Kubectl Commands |
-CKA Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-2-1-16
+CKA Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-2-1-16/
 
 Reference: https://katacoda.com/mmumshad2/
 
