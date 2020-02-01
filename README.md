@@ -30,4 +30,3 @@ Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ta
 Node Affinity | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 
----
