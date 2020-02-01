@@ -30,6 +30,8 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 [Resource Limits](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/)
 
+[Taints and Tolerations](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/)
+
 [Node Affinity](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/)
 
 [Security Contexts](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/)
