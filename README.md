@@ -55,8 +55,7 @@ Cluster Roles |
 Image Security |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Network Policies | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-network-policies/
-Ingress Networking - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-with-video/
-Ingress Networking - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-with-video-1-14/
+Ingress Networking | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-with-video/
 Persistent Volumes | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-persistent-volumes/
 Persistent Volume Claims |
 Explore Environment |
