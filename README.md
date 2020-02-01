@@ -16,6 +16,8 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 ### Practice Test
 
+[Practice Tests List](https://kodekloud.com/courses/certified-kubernetes-administrator-with-practice-tests-labs/lectures/12038860)
+
 [Pods](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-pods/)
 
 [ReplicaSets](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-replicasets/)
