@@ -26,10 +26,11 @@ Deployments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployments/
 Namespaces | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-namespaces/
 Services |
 Imperative Commands |
+Manual Scheduling |
 Labels & Selectors | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-labels-selectors/
 Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/
-Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/
 Node Affinity | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/
+Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 
