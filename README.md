@@ -35,6 +35,7 @@ DaemonSets |
 Static PODs |
 Multiple Schedulers |
 Monitor Cluster Components |
+Managing Application Logs |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 
