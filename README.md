@@ -46,7 +46,8 @@ OS Upgrades |
 Cluster Upgrade Process |
 Backup and Restore Methods |
 View Certificate Details |
-CCertificates API |
+Certificates API |
 KubeConfig |
+Role Based Access Controls |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 
