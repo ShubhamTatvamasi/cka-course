@@ -64,7 +64,7 @@ Deploy Network Solution |
 Networking Weave |
 Service Networking |
 CoreDNS in Kubernetes |
-CKA - Ingress Networking - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-with-video/
+CKA - Ingress Networking - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress/
 CKA - Ingress Networking - 2 |
 Cluster Installation using kubeadm |
 Application Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-app-1/
