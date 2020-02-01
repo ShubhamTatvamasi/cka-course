@@ -28,4 +28,6 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 [Secrets](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/)
 
+[Security Contexts](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/)
+
 ---
