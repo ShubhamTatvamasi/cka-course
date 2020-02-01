@@ -20,6 +20,6 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 [ReplicaSets](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-replicasets/)
 
-[Deployment](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployment/)
+[Deployments](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployments/)
 
 ---
