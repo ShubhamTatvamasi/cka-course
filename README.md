@@ -34,6 +34,7 @@ Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-
 DaemonSets |
 Static PODs |
 Multiple Schedulers |
+Monitor Cluster Components |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 
