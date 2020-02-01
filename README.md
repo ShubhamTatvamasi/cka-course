@@ -42,5 +42,8 @@ Env Variables |
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 Multi-Container Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-multi-container-pods/
 Init Containers |
+OS Upgrades |
+Cluster Upgrade Process |
+Backup and Restore Methods |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 
