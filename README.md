@@ -29,6 +29,7 @@ Imperative Commands |
 Manual Scheduling |
 Labels & Selectors | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-labels-selectors/
 Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/
+Logging | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-logging/
 Node Affinity | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/
 Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/
 DaemonSets |
