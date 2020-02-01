@@ -39,7 +39,7 @@ Multiple Schedulers |
 Monitor Cluster Components |
 Managing Application Logs |
 Rolling Updates and Rollbacks |
-Commands and Arguments |
+Commands and Arguments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-commands-args/
 Env Variables |
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 Multi-Container Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-multi-container-pods/
