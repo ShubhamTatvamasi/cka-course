@@ -55,7 +55,6 @@ Cluster Roles |
 Image Security |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Network Policies | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-network-policies/
-Ingress Networking | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-with-video/
 Persistent Volumes | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-persistent-volumes/
 Persistent Volume Claims |
 Explore Environment |
@@ -65,7 +64,7 @@ Deploy Network Solution |
 Networking Weave |
 Service Networking |
 CoreDNS in Kubernetes |
-CKA - Ingress Networking - 1 |
+CKA - Ingress Networking - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-with-video/
 CKA - Ingress Networking - 2 |
 Cluster Installation using kubeadm |
 Application Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-app-1/
