@@ -38,6 +38,7 @@ Monitor Cluster Components |
 Managing Application Logs |
 Rolling Updates and Rollbacks |
 Commands and Arguments |
+Env Variables |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 
