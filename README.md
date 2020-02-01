@@ -24,4 +24,6 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 [Deployments](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployments/)
 
+[Namespaces](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-namespaces/)
+
 ---
