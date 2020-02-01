@@ -74,6 +74,7 @@ Worker Node Failure |
 Advanced Kubectl Commands |
 CKA Practice Exam - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-1/
 CKA Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-2/
+CKA Practice Exam - 3 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-3/
 
 Reference: https://katacoda.com/mmumshad2/
 
