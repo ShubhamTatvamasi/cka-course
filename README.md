@@ -55,6 +55,7 @@ Cluster Roles |
 Image Security |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Network Policies | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-network-policies/
+Persistent Volumes | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-persistent-volumes/
 Persistent Volume Claims |
 Explore Environment |
 Explore CNI Weave 1 |
