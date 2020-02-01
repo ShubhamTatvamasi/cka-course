@@ -18,22 +18,16 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 [Practice Tests List](https://kodekloud.com/courses/certified-kubernetes-administrator-with-practice-tests-labs/lectures/12038860)
 
-[Pods](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-pods/)
-
-[ReplicaSets](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-replicasets/)
-
-[Deployments](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployments/)
-
-[Namespaces](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-namespaces/)
-
-[Secrets](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/)
-
-[Resource Limits](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/)
-
-[Taints and Tolerations](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/)
-
-[Node Affinity](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/)
-
-[Security Contexts](https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/)
+Resource | Practice Exam Link 
+--- | --- 
+Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-pods/
+ReplicaSets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-replicasets/
+Deployments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployments/
+Namespaces | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-namespaces/
+Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
+Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/
+Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/
+Node Affinity | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/
+Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 
 ---
