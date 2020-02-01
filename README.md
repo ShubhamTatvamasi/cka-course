@@ -27,6 +27,7 @@ Namespaces | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-namespaces/
 Services |
 Imperative Commands |
 Manual Scheduling |
+Readiness and Liveness Probes | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-readiness-probe/
 Labels & Selectors | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-labels-selectors/
 Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/
 Logging | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-logging/
