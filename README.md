@@ -31,6 +31,7 @@ Labels & Selectors | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-labels
 Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/
 Node Affinity | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/
 Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/
+DaemonSets |
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 
