@@ -18,14 +18,14 @@ addon-manager.yaml.tmpl  etcd.yaml  kube-apiserver.yaml  kube-controller-manager
 
 Resource | Practice Exam Link 
 --- | --- 
-**Core Concepts**
+**Core Concepts** | :mortar_board:
 Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-pods/
 ReplicaSets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-replicasets/
 Deployments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-deployments/
 Namespaces | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-namespaces/
 Services | https://katacoda.com/embed/mmumshad2/kubernetes-for-beginners-services/
 Imperative Commands | https://katacoda.com/embed/mmumshad2/kubernetes-cka-imperative-1/
-**Scheduling**
+**Scheduling** | :mortar_board:
 Manual Scheduling | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-manual/
 Readiness and Liveness Probes | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-readiness-probe/
 Labels & Selectors | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-labels-selectors/
@@ -36,10 +36,10 @@ Service Account | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-serviceac
 DaemonSets | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-daemonset/
 Static PODs | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-staticpods/
 Multiple Schedulers | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-multiple/
-**Logging & Monitoring**
+**Logging & Monitoring** | :mortar_board:
 Monitor Cluster Components | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-monitoring/
 Managing Application Logs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-logging/
-**Application Lifecycle Management**
+**Application Lifecycle Management** | :mortar_board:
 Rolling Updates and Rollbacks | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-rolling-rollbacks-updates/
 Jobs and CronJobs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-jobs-cronjobs/
 Commands and Arguments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-commands-args/
@@ -48,11 +48,11 @@ Env Variables | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 Multi-Container Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-multi-container-pods/
 Init Containers | https://katacoda.com/embed/mmumshad2/kubernetes-cka-init-containers/
-**Cluster Maintenance**
+**Cluster Maintenance** | :mortar_board:
 OS Upgrades | https://katacoda.com/embed/mmumshad2/kubernetes-cka-cluster-maintenance-node/
 Cluster Upgrade Process | https://katacoda.com/embed/mmumshad2/kubernetes-cka-cluster-upgrade/
 Backup and Restore Methods | https://katacoda.com/embed/mmumshad2/kubernetes-cka-backup-etcd/
-**Security**
+**Security** | :mortar_board:
 View Certificate Details | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-tls-1-read-certs/
 Certificates API | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-certificates-api/
 KubeConfig | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-kubeconfig/
@@ -61,9 +61,9 @@ Cluster Roles | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-aut
 Image Security | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-image-security/
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Network Policies | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-network-policies/
-**Storage**
+**Storage** | :mortar_board:
 Persistent Volume Claims | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-persistent-volumes/
-**Networking**
+**Networking** | :mortar_board:
 Explore Environment | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-10-read-env/
 Explore CNI Weave 1 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-20-cni-read-weave/
 Explore CNI Weave 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-30-read-weave-2/
@@ -73,16 +73,16 @@ Service Networking | https://katacoda.com/embed/mmumshad2/kubernetes-cka-network
 CoreDNS in Kubernetes | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-40-read-dns/
 CKA - Ingress Networking - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress/
 CKA - Ingress Networking - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-ingress-2-deploy-controller/
-**Install**
+**Install** | :mortar_board:
 Cluster Installation using kubeadm | https://katacoda.com/embed/mmumshad2/kubernetes-cka-cluster-install/
-**Troubleshooting**
+**Troubleshooting** | :mortar_board:
 Application Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-app-1/
 Control Plane Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-cluster-1/
 Worker Node Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-worker-1/
-**Other Topics**
+**Other Topics** | :mortar_board:
 Advanced Kubectl Commands | https://katacoda.com/embed/mmumshad2/kubernetes-cka-kubectl-advanced/
 Kubernetes Challenge - Wordpress | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-challenge-1-wordpress/
-**Mock Exams**
+**Mock Exams** | :mortar_board:
 CKAD Practice Exam - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-exam-1/
 CKAD Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-exam-2/
 CKA Practice Exam - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-1/
