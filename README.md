@@ -89,8 +89,6 @@ CKA Practice Exam - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam
 CKA Practice Exam - 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-2/
 CKA Practice Exam - 3 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-exam-3/
 
----
-
 Reference | URL 
 --- | --- 
 Katacoda | https://katacoda.com/mmumshad2/
