@@ -52,7 +52,7 @@ Certificates API |
 KubeConfig |
 Role Based Access Controls |
 Cluster Roles |
-Image Security |
+Image Security | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-image-security/
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Network Policies | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-network-policies/
 Persistent Volumes | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-persistent-volumes/
