@@ -32,6 +32,7 @@ Labels & Selectors | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-labels
 Taints and Tolerations | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-taints-tolerations/
 Node Affinity | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-node-affinity/
 Resource Limits | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-resource-limits/
+Service Account | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-serviceaccounts/
 DaemonSets | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-daemonset/
 Static PODs | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-staticpods/
 Multiple Schedulers | https://katacoda.com/embed/mmumshad2/kubernetes-cka-scheduler-multiple/
