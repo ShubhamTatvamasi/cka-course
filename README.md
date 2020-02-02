@@ -39,7 +39,7 @@ Monitor Cluster Components | https://katacoda.com/embed/mmumshad2/kubernetes-cka
 Managing Application Logs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-logging/
 Rolling Updates and Rollbacks | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-rolling-rollbacks-updates/
 Commands and Arguments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-commands-args/
-ConfigMaps | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars
+ConfigMaps | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
 Env Variables | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 Multi-Container Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-multi-container-pods/
