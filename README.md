@@ -39,6 +39,7 @@ Multiple Schedulers | https://katacoda.com/embed/mmumshad2/kubernetes-cka-schedu
 Monitor Cluster Components | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-monitoring/
 Managing Application Logs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-logging/
 Rolling Updates and Rollbacks | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-rolling-rollbacks-updates/
+Jobs and CronJobs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-jobs-cronjobs/
 Commands and Arguments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-commands-args/
 ConfigMaps | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
 Env Variables | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
