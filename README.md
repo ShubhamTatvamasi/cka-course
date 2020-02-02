@@ -48,7 +48,7 @@ OS Upgrades |
 Cluster Upgrade Process |
 Backup and Restore Methods |
 View Certificate Details |
-Certificates API |
+Certificates API | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-certificates-api/
 KubeConfig | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-kubeconfig/
 Role Based Access Controls |
 Cluster Roles |
