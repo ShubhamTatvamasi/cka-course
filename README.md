@@ -69,7 +69,7 @@ CKA - Ingress Networking - 2 |
 Cluster Installation using kubeadm |
 Application Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-app-1/
 Control Plane Failure |
-Worker Node Failure |
+Worker Node Failure | https://katacoda.com/embed/mmumshad2/kubernetes-cka-troubleshooting-worker-1/
 Advanced Kubectl Commands |
 Kubernetes Challenge - Wordpress | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-challenge-1-wordpress/
 CKAD Practice Exam - 1 | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-exam-1/
