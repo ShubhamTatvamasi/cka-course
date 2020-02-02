@@ -49,7 +49,7 @@ Cluster Upgrade Process |
 Backup and Restore Methods |
 View Certificate Details |
 Certificates API |
-KubeConfig |
+KubeConfig | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-kubeconfig/
 Role Based Access Controls |
 Cluster Roles |
 Image Security | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-image-security/
