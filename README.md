@@ -55,7 +55,7 @@ Image Security | https://katacoda.com/embed/mmumshad2/kubernetes-cka-security-im
 Security Contexts | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-security-contexts/
 Network Policies | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-network-policies/
 Persistent Volume Claims | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-persistent-volumes/
-Explore Environment |
+Explore Environment | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-10-read-env/
 Explore CNI Weave 1 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-20-cni-read-weave/
 Explore CNI Weave 2 | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-30-read-weave-2/
 Deploy Network Solution | https://katacoda.com/embed/mmumshad2/kubernetes-cka-networking-35-deploy-weave/
