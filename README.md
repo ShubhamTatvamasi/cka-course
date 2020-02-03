@@ -21,6 +21,14 @@ Change the default namespace
 kubectl config get-contexts
 kubectl config set-context $(kubectl config current-context) --namespace=dev
 ```
+---
+
+### Service
+
+create service yaml template
+```bash
+kubectl create service nodeport webapp-service --tcp=8080:8080 --node-port=30080 --dry-run -o yaml
+```
 
 ---
 
