@@ -27,6 +27,7 @@ kubectl config set-context $(kubectl config current-context) --namespace=dev
 
 create service yaml template
 ```bash
+master $ kubectl expose deploy webapp --name webapp-service --port=8080 --type=NodePort
 kubectl create service nodeport webapp-service --tcp=8080:8080 --node-port=30080 --dry-run -o yaml
 ```
 
