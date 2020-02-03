@@ -43,7 +43,7 @@ Managing Application Logs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad
 Rolling Updates and Rollbacks | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-rolling-rollbacks-updates/
 Jobs and CronJobs | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-jobs-cronjobs/
 Commands and Arguments | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-commands-args/
-Environment Variables and Config Maps | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
+Environment Variables and ConfigMaps | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-env-vars/
 Secrets | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-secrets/
 Multi-Container Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-multi-container-pods/
 Init Containers | https://katacoda.com/embed/mmumshad2/kubernetes-cka-init-containers/
