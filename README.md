@@ -31,18 +31,6 @@ kubectl expose deploy webapp --name webapp-service --port=8080 --type=NodePort
 kubectl create service nodeport webapp-service --tcp=8080:8080 --node-port=30080 --dry-run -o yaml
 ```
 
-### Taints and Tolerations
-
-Check the taint on master node
-```bash
-kubectl describe node master | grep Taints
-```
-
-Create a taint on node01 with key of `spray`, value of `mortein` and effect of `NoSchedule`
-```bash
-kubectl taint nodes node01 spray=mortein:NoSchedule
-```
-
 ---
 
 ### Practice Test
