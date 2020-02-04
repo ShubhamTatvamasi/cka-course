@@ -35,7 +35,7 @@ kubectl create service nodeport webapp-service --tcp=8080:8080 --node-port=30080
 
 Check the taint on master node
 ```bash
-kubectl describe node kubemaster | grep Taint
+kubectl describe node master | grep Taints
 ```
 
 ---
