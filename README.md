@@ -31,6 +31,13 @@ kubectl expose deploy webapp --name webapp-service --port=8080 --type=NodePort
 kubectl create service nodeport webapp-service --tcp=8080:8080 --node-port=30080 --dry-run -o yaml
 ```
 
+### Taints and Tolerations
+
+Check the taint on master node
+```bash
+kubectl describe node kubemaster | grep Taint
+```
+
 ---
 
 ### Practice Test
