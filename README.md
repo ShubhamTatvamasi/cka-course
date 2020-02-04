@@ -38,6 +38,11 @@ Check the taint on master node
 kubectl describe node master | grep Taints
 ```
 
+Create a taint on node01 with key of `spray`, value of `mortein` and effect of `NoSchedule`
+```bash
+kubectl taint nodes node01 spray=mortein:NoSchedule
+```
+
 ---
 
 ### Practice Test
