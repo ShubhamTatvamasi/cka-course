@@ -1,7 +1,9 @@
 # cka-course
 
-### Practice Test
+### Online Playground:
+https://katacoda.com/embed/shubhamtatvamasi/playground/
 
+### Practice Test
 Resource | Practice Exam Link 
 --- | --- 
 **Core Concepts** | :mortar_board:
