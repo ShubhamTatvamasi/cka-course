@@ -1,7 +1,6 @@
 # cka-course
 
-### Online Playground:
-https://katacoda.com/embed/shubhamtatvamasi/playground/
+### Online Playground: https://katacoda.com/embed/shubhamtatvamasi/playground/
 
 ### Practice Tests:
 Resource | Practice Test Link 
