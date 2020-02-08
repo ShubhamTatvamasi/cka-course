@@ -3,7 +3,7 @@
 ### Online Playground:
 https://katacoda.com/embed/shubhamtatvamasi/playground/
 
-### Practice Tests
+### Practice Tests:
 Resource | Practice Test Link 
 --- | --- 
 **Core Concepts** | :mortar_board:
