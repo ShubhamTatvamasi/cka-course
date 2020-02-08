@@ -3,8 +3,8 @@
 ### Online Playground:
 https://katacoda.com/embed/shubhamtatvamasi/playground/
 
-### Practice Test
-Resource | Practice Exam Link 
+### Practice Tests
+Resource | Practice Test Link 
 --- | --- 
 **Core Concepts** | :mortar_board:
 Pods | https://katacoda.com/embed/mmumshad2/kubernetes-ckad-pods/
