@@ -1,6 +1,11 @@
 # cka-course
 
-### Online Playground: https://katacoda.com/embed/shubhamtatvamasi/playground/
+### Kubernetes Clusters:
+Nodes | Online Playground
+--- | --- 
+2 | https://katacoda.com/embed/shubhamtatvamasi/playground/
+4 | https://katacoda.com/embed/shubhamtatvamasi/playground2/
+> 4 Nodes cluster takes more time to load
 
 ### Practice Tests:
 Resources | Practice Test Links
