@@ -5,11 +5,11 @@ etcdctl backup --data-dir /var/lib/etcd --backup-dir /tmp/snapshot-pre-boot.db
 ```
 
 ```bash
-etcdctl snapshot save snapshot.db
+ETCDCTL_API=3 etcdctl snapshot save snapshot.db
 ```
 
 ```bash
-etcdctl snapshot status snapshot.db
+ETCDCTL_API=3 etcdctl snapshot status snapshot.db
 ```
 
 ```bash
@@ -17,5 +17,5 @@ service kube-apiserver stop
 ```
 
 ```bash
-etcdctl snapshot restore snapshot.db
+ETCDCTL_API=3 etcdctl snapshot restore snapshot.db
 ```
