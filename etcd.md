@@ -1,6 +1,10 @@
 # etcd
 
 ```bash
+etcdctl backup --data-dir /var/lib/etcd --backup-dir /tmp/snapshot-pre-boot.db
+```
+
+```bash
 etcdctl snapshot save snapshot.db
 ```
 
