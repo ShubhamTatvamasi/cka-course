@@ -18,6 +18,43 @@ ETCDCTL_API=3 etcdctl --endpoints=https://[127.0.0.1]:2379 --cacert=/etc/kuberne
      --initial-advertise-peer-urls=https://127.0.0.1:2380 \
      snapshot restore /tmp/snapshot-pre-boot.db
 ```
+
+### Modify /etc/kubernetes/manifests/etcd.yaml
+
+Update ETCD POD to use the new data directory and cluster token by modifying the pod definition file at `/etc/kubernetes/manifests/etcd.yaml`. When this file is updated, the ETCD pod is automatically re-created as thisis a static pod placed under the `/etc/kubernetes/manifests` directory.
+
+Update --data-dir to use new target location
+
+```
+--data-dir=/var/lib/etcd-from-backup
+```
+
+Update new initial-cluster-token to specify new cluster
+
+```
+--initial-cluster-token=etcd-cluster-1
+```
+
+Update volumes and volume mounts to point to new path
+
+```
+    volumeMounts:
+    - mountPath: /var/lib/etcd-from-backup
+      name: etcd-data
+    - mountPath: /etc/kubernetes/pki/etcd
+      name: etcd-certs
+  hostNetwork: true
+  priorityClassName: system-cluster-critical
+  volumes:
+  - hostPath:
+      path: /var/lib/etcd-from-backup
+      type: DirectoryOrCreate
+    name: etcd-data
+  - hostPath:
+      path: /etc/kubernetes/pki/etcd
+      type: DirectoryOrCreate
+    name: etcd-certs
+```
 ---
 
 ### Other commands
