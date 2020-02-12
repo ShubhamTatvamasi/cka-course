@@ -9,6 +9,7 @@ issue new certificate
 ```bash
 openssl x509 -req -in /etc/kubernetes/pki/apiserver-etcd-client.csr -CA /etc/kubernetes/pki/etcd/ca.crt -CAkey /etc/kubernetes/pki/etcd/ca.key -CAcreateserial -out /etc/kubernetes/pki/apiserver-etcd-client.crt
 ```
+---
 
 akshay-csr.yaml
 ```yaml
@@ -24,5 +25,15 @@ spec:
   - digital signature
   - key encipherment
   - server auth
+```
+
+Get the list of Certificate Signing Request
+```bash
+kubectl get csr
+```
+
+Approve the Certificate Request
+```bash
+kubectl certificate approve akshay
 ```
 
