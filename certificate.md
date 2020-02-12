@@ -37,3 +37,12 @@ Approve the Certificate Request
 kubectl certificate approve akshay
 ```
 
+Deny the Certificate Request
+```bash
+kubectl certificate deny agent-smith
+```
+
+Delete the Certificate Signing Request
+```bash
+kubectl delete csr agent-smith
+```
