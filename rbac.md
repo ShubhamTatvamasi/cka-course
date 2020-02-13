@@ -11,4 +11,7 @@ Get list of roles
 kubectl get roles
 ```
 
-
+Get role binding
+```bash
+kubectl get rolebinding
+```
