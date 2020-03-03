@@ -1,7 +1,4 @@
-# exam
-
-
-## CKA Mock Exam - 2
+# CKA Mock Exam - 2
 
 ### Take a backup of the etcd cluster and save it to /tmp/etcd-backup.db
 
