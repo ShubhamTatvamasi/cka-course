@@ -153,6 +153,20 @@ kubectl run nginx-deploy --image=nginx:1.16
 kubectl set image deploy nginx-deploy nginx-deploy=nginx:1.17
 ```
 
+### Create a new user called john. Grant him access to the cluster. John should have permission to create, list, get, update and delete pods in the development namespace . The private key exists in the location: /root/john.key and csr at /root/john.csr
+
+```bash
+kubectl create role developer --verb=create,list,get,update,delete --resource=pods --namespace=development
+```
+
+```
+kubectl create rolebinding john-developer --user=john --role=developer --namespace=development
+```
+
+
+
+
+
 
 
 
