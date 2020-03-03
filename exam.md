@@ -100,10 +100,6 @@ spec:
       capabilities:
         add: ["SYS_TIME"]
     name: super-user-pod
-    resources: {}
-  dnsPolicy: ClusterFirst
-  restartPolicy: Never
-status: {}
 EOF
 ```
 
@@ -140,14 +136,11 @@ spec:
     resources: {}
     volumeMounts:
     - mountPath: "/data"
-      name: my-pvc
+      name: mypd
   volumes:
-    - name: my-pvc
+    - name: mypd
       persistentVolumeClaim:
-        claimName: pv-1
-  dnsPolicy: ClusterFirst
-  restartPolicy: Always
-status: {}
+        claimName: my-pvc
 EOF
 ```
 
