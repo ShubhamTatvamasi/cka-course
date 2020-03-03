@@ -145,10 +145,10 @@ EOF
 
 
 ```bash
-kubectl run nginx-deploy --image=nginx:1.16
+kubectl run nginx-deploy --image=nginx:1.16 --record
 ```
 ```bash
-kubectl set image deploy nginx-deploy nginx-deploy=nginx:1.17
+kubectl set image deploy nginx-deploy nginx-deploy=nginx:1.17 --record
 ```
 
 ### Create a new user called john. Grant him access to the cluster. John should have permission to create, list, get, update and delete pods in the development namespace . The private key exists in the location: /root/john.key and csr at /root/john.csr
