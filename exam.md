@@ -74,3 +74,36 @@ spec:
 status: {}
 ```
 
+### Create a new pod called super-user-pod with image busybox:1.28. Allow the pod to be able to set system_time
+
+```bash
+kubectl run super-user-pod --restart=Never --image=busybox:1.28 --dry-run -o yaml --command -- sleep 4800
+```
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: super-user-pod
+  name: super-user-pod
+spec:
+  containers:
+  - command:
+    - sleep
+    - "4800"
+    image: busybox:1.28
+    securityContext:
+      capabilities:
+        add: ["SYS_TIME"]
+    name: super-user-pod
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}
+```
+
+
+
+
+
