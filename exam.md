@@ -124,21 +124,22 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: super-user-pod
-  name: super-user-pod
+    run: use-pv
+  name: use-pv
 spec:
   containers:
-  - command:
-    - sleep
-    - "4800"
-    image: busybox:1.28
-    securityContext:
-      capabilities:
-        add: ["SYS_TIME"]
-    name: super-user-pod
+  - image: nginx
+    name: use-pv
     resources: {}
+    volumeMounts:
+    - mountPath: "/data"
+      name: my-pvc
+  volumes:
+    - name: my-pvc
+      persistentVolumeClaim:
+        claimName: pv-1
   dnsPolicy: ClusterFirst
-  restartPolicy: Never
+  restartPolicy: Always
 status: {}
 ```
 
