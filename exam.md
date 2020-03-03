@@ -51,7 +51,7 @@ ETCDCTL_API=3 etcdctl \
 kubectl run redis-storage --restart=Never --image=redis:alpine --dry-run -o yaml
 ```
 ```yaml
-kubectl apply -f << EOF
+cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
@@ -82,6 +82,7 @@ EOF
 kubectl run super-user-pod --restart=Never --image=busybox:1.28 --dry-run -o yaml --command -- sleep 4800
 ```
 ```yaml
+cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
@@ -103,11 +104,13 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Never
 status: {}
+EOF
 ```
 
 ### A pod definition file is created at /root/use-pv.yaml. Make use of this manifest file and mount the persistent volume called pv-1. Ensure the pod is running and the PV is bound.
 
 ```yaml
+cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -118,9 +121,11 @@ spec:
   resources:
     requests:
       storage: 10Mi
+EOF
 ```
 
 ```yaml
+cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
@@ -143,6 +148,7 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
+EOF
 ```
 
 ### Create a new deployment called nginx-deploy, with image nginx:1.16 and 1 replica. Record the version. Next upgrade the deployment to version 1.17 using rolling update. Make sure that the version upgrade is recorded in the resource annotation.
