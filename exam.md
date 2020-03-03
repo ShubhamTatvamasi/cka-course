@@ -51,6 +51,7 @@ ETCDCTL_API=3 etcdctl \
 kubectl run redis-storage --restart=Never --image=redis:alpine --dry-run -o yaml
 ```
 ```yaml
+kubectl apply -f << EOF
 apiVersion: v1
 kind: Pod
 metadata:
@@ -72,6 +73,7 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Never
 status: {}
+EOF
 ```
 
 ### Create a new pod called super-user-pod with image busybox:1.28. Allow the pod to be able to set system_time
