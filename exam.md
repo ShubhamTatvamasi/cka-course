@@ -114,7 +114,7 @@ cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pv-1
+  name: my-pvc
 spec:
   accessModes:
     - ReadWriteOnce
