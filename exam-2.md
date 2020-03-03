@@ -196,6 +196,7 @@ kubectl run test-nslookup --restart=Never --image=busybox:1.28 --rm -it -- nsloo
 ```bash
 kubectl run test-nslookup --restart=Never --image=busybox:1.28 --rm -it -- nslookup 10-32-0-6.default.pod > /root/nginx.pod
 ```
+> update the IP before running the command 
 
 ### Create a static pod on node01 called nginx-critical with image nginx. Create this pod on node01 and make sure that it is recreated/restarted automatically in case of a failure.
 
