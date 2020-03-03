@@ -69,10 +69,7 @@ spec:
       name: redis-storage
   volumes:
   - name: redis-storage
-    emptyDir: {}    
-  dnsPolicy: ClusterFirst
-  restartPolicy: Never
-status: {}
+    emptyDir: {}
 EOF
 ```
 
