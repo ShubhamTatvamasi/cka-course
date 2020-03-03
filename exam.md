@@ -10,9 +10,9 @@ check the etcd version
 ETCDCTL_API=3 etcdctl version
 ```
 
-move to the manifests folder
+chek the endpoint
 ```bash
-cd /etc/kubernetes/manifests
+cat /etc/kubernetes/manifests/etcd.yaml | grep advertise-client-urls
 ```
 
 check the etcd command working
