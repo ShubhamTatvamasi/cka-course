@@ -143,5 +143,16 @@ spec:
 status: {}
 ```
 
+### Create a new deployment called nginx-deploy, with image nginx:1.16 and 1 replica. Record the version. Next upgrade the deployment to version 1.17 using rolling update. Make sure that the version upgrade is recorded in the resource annotation.
+
+
+```bash
+kubectl run nginx-deploy --image=nginx:1.16
+```
+```bash
+kubectl set image deploy nginx-deploy nginx-deploy=nginx:1.17
+```
+
+
 
 
