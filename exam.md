@@ -194,5 +194,21 @@ test
 kubectl auth can-i update pods --as john -n development
 ```
 
+### Create an nginx pod called nginx-resolver using image nginx, expose it internally with a service called nginx-resolver-service. Test that you are able to look up the service and pod names from within the cluster. Use the image: busybox:1.28 for dns lookup. Record results in /root/nginx.svc and /root/nginx.pod
+
+
+```bash
+kubectl run nginx-resolver --restart=Never --image=nginx
+```
+```bash
+kubectl expose pod nginx-resolver --name=nginx-resolver-service --port=80
+```
+```bash
+kubectl run test-nslookup --restart=Never --image=busybox:1.28 --rm -it -- nslookup nginx-resolver-service > /root/nginx.svc
+```
+```bash
+kubectl run test-nslookup --restart=Never --image=busybox:1.28 --rm -it -- nslookup 10-32-0-6.default.pod > /root/nginx.pod
+```
+
 
 
