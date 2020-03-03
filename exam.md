@@ -167,11 +167,24 @@ kubectl set image deploy nginx-deploy nginx-deploy=nginx:1.17
 kubectl create role developer --verb=create,list,get,update,delete --resource=pods --namespace=development
 ```
 
-```
+```bash
 kubectl create rolebinding john-developer --user=john --role=developer --namespace=development
 ```
 
-
+```yaml
+cat << EOF | kubectl apply -f -
+apiVersion: certificates.k8s.io/v1beta1
+kind: CertificateSigningRequest
+metadata:
+  name: john-developer
+spec:
+  request: $(cat /root/john.csr | base64 | tr -d '\n')
+  usages:
+  - digital signature
+  - key encipherment
+  - server auth
+EOF
+```
 
 
 
