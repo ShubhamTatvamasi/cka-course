@@ -45,4 +45,32 @@ ETCDCTL_API=3 etcdctl \
   snapshot status /tmp/etcd-backup.db -w table
 ```
 
+### Create a Pod called redis-storage with image: redis:alpine with a Volume of type emptyDir that lasts for the life of the Pod. Specs on the right.
+
+```bash
+kubectl run redis-storage --restart=Never --image=redis:alpine --dry-run -o yaml
+```
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: redis-storage
+  name: redis-storage
+spec:
+  containers:
+  - image: redis:alpine
+    name: redis-storage
+    resources: {}
+    volumeMounts:
+    - mountPath: /data/redis
+      name: redis-storage
+  volumes:
+  - name: redis-storage
+    emptyDir: {}    
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}
+```
 
