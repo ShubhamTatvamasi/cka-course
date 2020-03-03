@@ -50,9 +50,10 @@ kubectl run temp-bus --restart=Never --image=redis:alpine -n finance
 
 ### A new application orange is deployed. There is something wrong with it. Identify and fix the issue.
 
+```bash
+kubectl edit pod/orange
 ```
-update the command
-```
+> update the `sleep` command
 
 ### Expose the hr-web-app as service hr-web-app-service application on port 30082 on the nodes on the cluster
 
