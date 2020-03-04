@@ -200,6 +200,21 @@ kubectl run test-nslookup --restart=Never --image=busybox:1.28 --rm -it -- nsloo
 
 ### Create a static pod on node01 called nginx-critical with image nginx. Create this pod on node01 and make sure that it is recreated/restarted automatically in case of a failure.
 
+check the kubelet status
+```bash
+systemctl status kubelet
+```
+
+check for the following config
+```
+--config=/var/lib/kubelet/config.yaml
+```
+
+get static pod path location
+```bash
+cat /var/lib/kubelet/config.yaml | grep staticPodPath
+```
+
 create the folder
 ```bash
 mkdir -p /etc/kubernetes/manifests && cd /etc/kubernetes/manifests
@@ -209,6 +224,3 @@ past this in `nginx-critical.yaml` on node01
 ```bash
 kubectl run nginx-critical --restart=Never --image=nginx --dry-run -o yaml
 ```
-
-
-
