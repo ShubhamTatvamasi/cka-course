@@ -19,3 +19,16 @@ kubectl create clusterrolebinding pvviewer-role-binding --clusterrole=pvviewer-r
 kubectl run pvviewer --restart=Never --image=redis --serviceaccount=pvviewer
 ```
 
+### List the InternalIP of all nodes of the cluster. Save the result to a file /root/node_ips
+
+```bash
+kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}' > /root/node_ips
+```
+
+
+
+
+
+
+
+
