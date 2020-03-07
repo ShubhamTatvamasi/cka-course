@@ -101,6 +101,39 @@ EOF
 ```bash
 kubectl run test-np --restart=Never --image=busybox:1.28 --rm -i -- nc -z -v -w 2 np-test-service 80
 ```
+> use this command to test service
+
+### Taint the worker node node01 to be Unschedulable. Once done, create a pod called dev-redis, image redis:alpine to ensure workloads are not scheduled to this worker node. Finally, create a new pod called prod-redis and image redis:alpine with toleration to be scheduled on node01.
+
+```bash
+kubectl taint nodes node01 env_type=production:NoSchedule
+```
+```bash
+kubectl run dev-redis --restart=Never --image=redis:alpine
+```
+```yaml
+cat << EOF | kubectl apply -f -
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prod-redis
+spec:
+  containers:
+  - name: prod-redis
+    image: redis:alpine 
+  tolerations:
+  - key: env_type
+    value: production
+    effect: NoSchedule
+EOF
+```
+
+
+
+
+
+
+
 
 
 
