@@ -129,6 +129,15 @@ spec:
 EOF
 ```
 
+### Create a pod called hr-pod in hr namespace belonging to the production environment and frontend tier .
+
+```bash
+kubectl create ns hr
+```
+```bash
+kubectl run hr-pod -n hr --restart=Never --image=redis:alpine -l environment=production,frontend=tier
+```
+
 
 
 
