@@ -124,6 +124,7 @@ spec:
   tolerations:
   - key: env_type
     value: production
+    operator: Equal
     effect: NoSchedule
 EOF
 ```
