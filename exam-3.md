@@ -135,7 +135,7 @@ EOF
 kubectl create ns hr
 ```
 ```bash
-kubectl run hr-pod -n hr --restart=Never --image=redis:alpine -l environment=production,frontend=tier
+kubectl run hr-pod -n hr --restart=Never --image=redis:alpine -l environment=production,tier=frontend
 ```
 
 ### A kubeconfig file called super.kubeconfig has been created in /root. There is something wrong with the configuration. Troubleshoot and fix it.
