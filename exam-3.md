@@ -36,8 +36,6 @@ cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
 metadata:
-  labels:
-    run: multi-pod
   name: multi-pod
 spec:
   containers:
@@ -45,8 +43,14 @@ spec:
     - sleep
     - "4800"
     image: busybox
+    env:
+    - name: name
+      value: beta
     name: beta
   - image: nginx
+    env:
+    - name: name
+      value: alpha
     name: alpha
 EOF
 ```
