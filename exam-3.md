@@ -28,10 +28,10 @@ kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP
 ### Create a pod called multi-pod with two containers. Container 1, name: alpha, image: nginx. Container 2: beta, image: busybox, command sleep 4800.
 
 ```bash
-kubectl run alpha --restart=Never --image=nginx --dry-run -o yaml > alpha.yaml
-kubectl run beta --restart=Never --image=busybox --dry-run -o yaml --command -- sleep 4800 > beta.yaml
+kubectl run beta --restart=Never --image=busybox --env=name=beta --dry-run -o yaml --command -- sleep 4800 > multi-pod.yaml
 ```
-```
+> use this command to 
+```yaml
 cat << EOF | kubectl apply -f -
 apiVersion: v1
 kind: Pod
@@ -53,6 +53,12 @@ spec:
       value: alpha
     name: alpha
 EOF
+```
+
+### Create a Pod called non-root-pod , image: redis:alpine. runAsUser: 1000. fsGroup: 2000
+
+```bash
+kubectl run non-root-pod --restart=Never --image=redis:alpine --dry-run -o yaml > non-root-pod.yaml
 ```
 
 
