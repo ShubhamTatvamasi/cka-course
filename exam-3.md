@@ -77,6 +77,30 @@ spec:
 EOF
 ```
 
+### Create NetworkPolicy, by the name ingress-to-nptest that allows incoming connections to the service over port 80
+
+```yaml
+cat << EOF | kubectl apply -f -
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ingress-to-nptest
+  namespace: default
+spec:
+  podSelector:
+    matchLabels:
+      run: np-test-1
+  policyTypes:
+  - Ingress
+  ingress:
+  - ports:
+    - protocol: TCP
+      port: 80
+EOF
+```
+```bash
+kubectl run test-np --restart=Never --image=busybox:1.28 --rm -i -- nc -z -v -w 2 np-test-service 80
+```
 
 
 
