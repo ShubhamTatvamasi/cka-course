@@ -70,7 +70,6 @@ spec:
   securityContext:
     runAsUser: 1000
     fsGroup: 2000
-spec:
   containers:
   - image: redis:alpine
     name: non-root-pod
