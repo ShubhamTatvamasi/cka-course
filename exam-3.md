@@ -60,7 +60,22 @@ EOF
 ```bash
 kubectl run non-root-pod --restart=Never --image=redis:alpine --dry-run -o yaml > non-root-pod.yaml
 ```
-
+```yaml
+cat << EOF | kubectl apply -f -
+apiVersion: v1
+kind: Pod
+metadata:
+  name: non-root-pod
+spec:
+  securityContext:
+    runAsUser: 1000
+    fsGroup: 2000
+spec:
+  containers:
+  - image: redis:alpine
+    name: non-root-pod
+EOF
+```
 
 
 
