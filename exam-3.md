@@ -143,12 +143,18 @@ kubectl run hr-pod -n hr --restart=Never --image=redis:alpine -l environment=pro
 ```bash
 kubectl cluster-info --kubeconfig=/root/super.kubeconfig
 ```
+```bash
+cp /root/.kube/config /root/super.kubeconfig
+```
 
+### We have created a new deployment called nginx-deploy. scale the deployment to 3 replicas. Has the replica's increased? Troubleshoot the issue and fix it.
 
-
-
-
-
-
-
-
+```bash
+kubectl scale deploy nginx-deploy --replicas=3
+```
+```bash
+grep contro1ler /etc/kubernetes/manifests/kube-controller-manager.yaml | wc -l
+```
+```bash
+sed -i 's/kube-contro1ler-manager/kube-controller-manager/g' /etc/kubernetes/manifests/kube-controller-manager.yaml
+```
