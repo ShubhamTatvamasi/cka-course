@@ -12,7 +12,7 @@ kubectl create clusterrole pvviewer-role --verb=list --resource=pv
 ```
 
 ```bash
-kubectl create clusterrolebinding pvviewer-role-binding --clusterrole=view --serviceaccount=default:pvviewer
+kubectl create clusterrolebinding pvviewer-role-binding --clusterrole=pvviewer-role --serviceaccount=default:pvviewer
 ```
 
 ```bash
