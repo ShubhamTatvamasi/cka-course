@@ -25,8 +25,31 @@ kubectl run pvviewer --restart=Never --image=redis --serviceaccount=pvviewer
 kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="InternalIP")].address}' > /root/node_ips
 ```
 
+### Create a pod called multi-pod with two containers. Container 1, name: alpha, image: nginx. Container 2: beta, image: busybox, command sleep 4800.
 
-
+```bash
+kubectl run alpha --restart=Never --image=nginx --dry-run -o yaml > alpha.yaml
+kubectl run beta --restart=Never --image=busybox --dry-run -o yaml --command -- sleep 4800 > beta.yaml
+```
+```
+cat << EOF | kubectl apply -f -
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: multi-pod
+  name: multi-pod
+spec:
+  containers:
+  - command:
+    - sleep
+    - "4800"
+    image: busybox
+    name: beta
+  - image: nginx
+    name: alpha
+EOF
+```
 
 
 
