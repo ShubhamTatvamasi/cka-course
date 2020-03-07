@@ -138,6 +138,11 @@ kubectl create ns hr
 kubectl run hr-pod -n hr --restart=Never --image=redis:alpine -l environment=production,frontend=tier
 ```
 
+### A kubeconfig file called super.kubeconfig has been created in /root. There is something wrong with the configuration. Troubleshoot and fix it.
+
+```bash
+kubectl cluster-info --kubeconfig=/root/super.kubeconfig
+```
 
 
 
